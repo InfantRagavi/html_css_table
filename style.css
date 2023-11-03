@@ -1,0 +1,60 @@
+/*universal selector*/
+*{
+    font-family: cursive;
+}
+/*background proberties*/
+body{
+    background-image:url('pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/*element selector*/
+p{
+    text-transform: capitalize;
+    font-size: x-large;
+    color:purple;
+}
+/*element selector*/
+h4{
+    font-size:x-large;
+    color:mediumvioletred;
+}
+/*element selector*/
+table,th,td{
+    border: 1px solid darkgreen;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: x-large;
+}
+/*element selector*/
+h5{
+    text-transform: capitalize;
+    font-size:x-large;
+    color:chocolate;
+}
+/*id selector*/
+#ca{
+    text-decoration: none;
+    font-size: large;
+    color:green;
+}
+/*element selector*/
+h1{
+    color:palevioletred;
+}
+/*id selector*/
+#even{
+    color:firebrick;
+    background-color: darkcyan;
+}
+/*id selector*/
+#odd{
+    color:forestgreen;
+    background-color: goldenrod;
+}
+/*id selector*/
+#active{
+    color: khaki;
+    background-color: lightcoral;
+}
